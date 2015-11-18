@@ -103,6 +103,15 @@
                 { "trigger": "TurnOffSound\tExactly what it says on the tin", "contents": "TurnOffSound()" },
                 { "trigger": "TurnOnSound\tExactly what it says on the tin", "contents": "TurnOnSound()" },
 
+                /* Hacking Device */
+                { "trigger": "Log\t'Log' (No other text ingame)", "contents": "Log()" },
+
+
+                /* Teleportation Device */ 
+                { "trigger": "Position\tGet the coordinates of your current position", "contents": "Position()" },
+                { "trigger": "Teleport\tTeleport to another position in the same room. Returns an error (can't read please report in issue on github what it says if you can)", "contents": "Teleport(${1:x}, ${0:y})" },
+                { "trigger": "SetWorldPosition\tTeleport to another position anywhere in the world, returns stat(can't read please report in issue on github what it says if you can)", "contents": "SetWorldPosition(${1:room}, ${0:x}, ${2:y})" },
+
                 /* Templates
                 { "trigger": "\t", "contents": "(${0:x})" },
                 { "trigger": "\t", "contents": "(${0:x})" },
