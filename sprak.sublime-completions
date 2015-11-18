@@ -96,6 +96,13 @@
                 { "trigger": "Lock\tLock, returns true on success", "contents": "Lock(${0:code})" },
                 { "trigger": "Toggle\tLock or unlock depending on if the door is locked", "contents": "Toggle(${0:code})" },
 
+                /* Radio */
+                { "trigger": "Blip\tMake a blip sound", "contents": "Blip()" },
+                { "trigger": "GetChannel\tGet the nr of the current channel", "contents": "GetChannel()" },
+                { "trigger": "SetChannel\tSet the channel", "contents": "SetChannel(${0:newChannel})" },
+                { "trigger": "TurnOffSound\tExactly what it says on the tin", "contents": "TurnOffSound()" },
+                { "trigger": "TurnOnSound\tExactly what it says on the tin", "contents": "TurnOnSound()" },
+
                 /* Templates
                 { "trigger": "\t", "contents": "(${0:x})" },
                 { "trigger": "\t", "contents": "(${0:x})" },
