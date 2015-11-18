@@ -16,7 +16,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.comment.qbasic</string>
+					<string>punctuation.definition.comment.sprak</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -24,7 +24,7 @@
 			<key>match</key>
 			<string>(#).*</string>
 			<key>name</key>
-			<string>comment.line.qbasic</string>
+			<string>comment.line.sprak</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -32,7 +32,7 @@
 			<key>match</key>
 			<string>\b((end )?if|(end )?select|(resume )?next|case|end|void|close|do|else|for|gosub|goto|loop|on|open|return|then|to|until|while)\b</string>
 			<key>name</key>
-			<string>keyword.control.qbasic</string>
+			<string>keyword.control.sprak</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -40,15 +40,15 @@
 			<key>match</key>
 			<string>(\+|=|&lt;|&gt;|&lt;&gt;|AND|OR)</string>
 			<key>name</key>
-			<string>keyword.operator.qbasic</string>
+			<string>keyword.operator.sprak</string>
 		</dict>
 		<dict>
 			<key>comment</key>
 			<string>Function</string>
 			<key>match</key>
-			<string>\b(OnHack|OnIntruder|Count|Range|GetIndexes|Remove|RemoveAll|HasIndex|Append|Type|Round|Int|Mod|Indo|Random|GetUser|Name|Time|Width|Height|GetHour|GetMinute|Sleep|Quit|CharToInt|IntToChar|ClearText|Print|Say|PlaySound|Pitch|Sin|Cos|PrintS|Input|Line|Text|Rect|DisplayGraphics|Color|Repeat|HSVtoRGB|RGBToHSV|Lines|GetConnections|Slurp|Connect|DisconnectAll|StringContains|MovePerson|ZapPerson|RestoreCode|Broadcast|IsKeyPressed|HasFloppy|LoadData|ClearData|SaveData|BootFromFloppy)\b</string>
+			<string>\b(OnHack|OnIntruder|Count|Range|GetIndexes|Remove|RemoveAll|HasIndex|Append|Type|Round|Int|Mod|Info|Random|GetUser|Name|Time|Width|Height|GetHour|GetMinute|Sleep|Quit|CharToInt|IntToChar|ClearText|Print|Say|PlaySound|Pitch|Sin|Cos|PrintS|Input|Line|Text|Rect|DisplayGraphics|Color|Repeat|HSVtoRGB|RGBToHSV|Lines|GetConnections|Slurp|Connect|DisconnectAll|StringContains|MovePerson|ZapPerson|RestoreCode|Broadcast|IsKeyPressed|HasFloppy|LoadData|ClearData|SaveData|BootFromFloppy|SetMhz|EnableAPI|SetMaxTime|Speed|Charisma|Smelliness|Sleepiness|Drunkenness|Drink|Corruption|IsUser|GetRoom|RemoteFunctionCall|Trippy|TurnLeft|TurnRight|FastForward|Move|QuickBoost)\b</string>
 			<key>name</key>
-			<string>support.function.qbasic</string>
+			<string>support.function.sprak</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -56,7 +56,7 @@
 			<key>match</key>
 			<string>\b(\d(\.\d)?)+</string>
 			<key>name</key>
-			<string>constant.numeric.qbasic</string>
+			<string>constant.numeric.sprak</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -64,7 +64,7 @@
 			<key>match</key>
 			<string>\b\w+\$</string>
 			<key>name</key>
-			<string>constant.global.qbasic</string>
+			<string>constant.global.sprak</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -72,7 +72,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.qbasic</string>
+					<string>entity.name.function.sprak</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -80,7 +80,7 @@
 			<key>match</key>
 			<string>^(\w+):</string>
 			<key>name</key>
-			<string>meta.function.qbasic</string>
+			<string>meta.function.sprak</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -88,7 +88,7 @@
 			<key>match</key>
 			<string>[\(\)]</string>
 			<key>name</key>
-			<string>meta.brace.round.qbasic</string>
+			<string>meta.brace.round.sprak</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -96,7 +96,7 @@
 			<key>match</key>
 			<string>[\{\}]</string>
 			<key>name</key>
-			<string>meta.brace.curly.qbasic</string>
+			<string>meta.brace.curly.sprak</string>
 		</dict>
 		<dict>
 			<key>begin</key>
@@ -106,7 +106,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.array.qbasic</string>
+					<string>constant.array.sprak</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -118,11 +118,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>constant.array.qbasic</string>
+					<string>constant.array.sprak</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>other.array.qbasic</string>
+			<string>other.array.sprak</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -139,7 +139,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.qbasic</string>
+					<string>punctuation.definition.string.begin.sprak</string>
 				</dict>
 			</dict>
 			<key>comment</key>
@@ -151,11 +151,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.string.begin.qbasic</string>
+					<string>punctuation.definition.string.begin.sprak</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>string.quoted.double.qbasic</string>
+			<string>string.quoted.double.sprak</string>
 			<key>patterns</key>
 			<array>
 				<dict>
@@ -164,7 +164,7 @@
 					<key>match</key>
 					<string>(\\")</string>
 					<key>name</key>
-					<string>constant.character.escape.qbasic</string>
+					<string>constant.character.escape.sprak</string>
 				</dict>
 				<dict>
 					<key>comment</key>
@@ -172,7 +172,7 @@
 					<key>match</key>
 					<string>(')</string>
 					<key>name</key>
-					<string>other.qbasic</string>
+					<string>other.sprak</string>
 				</dict>
 				<dict>
 					<key>include</key>
