@@ -71,7 +71,7 @@
                 { "trigger": "EnableAPI\tEnable an API", "contents": "EnableAPI(${0:name})" },
                 { "trigger": "SetMaxTime\tSet the maximum execution time for the computer", "contents": "SetMaxTime(${0:maxTime})" },
 
-                /* Drinks / Food */
+                /* Drinks */
                 { "trigger": "Speed\tChange the speed of the drinker", "contents": "Speed(${0:d})" },
                 { "trigger": "Charisma\tChange the Charisma of the drinker", "contents": "Charisma(${0:d})" },
                 { "trigger": "Smelliness\tChange the Smelliness of the drinker", "contents": "Smelliness(${0:d})" },
@@ -83,7 +83,7 @@
                 { "trigger": "GetRoom\tGet the room of the drinker", "contents": "GetRoom()" },
                 { "trigger": "RemoteFunctionCall\tCall remote function on connected objects", "contents": "RemoteFunctionCall(${1:receiverIndex}, ${0:functionName}, ${2:arguments})" },
 
-                /* Drugs */
+                /* Drugs / Food */
                 { "trigger": "Trippy\t\"Trippy\"", "contents": "Trippy()" },
                 { "trigger": "TurnLeft\tTurn left", "contents": "TurnLeft()" },
                 { "trigger": "TurnRight\tTurn right", "contents": "TurnRight()" },
