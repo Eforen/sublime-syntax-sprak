@@ -1,6 +1,9 @@
 # Sublime Språk Syntax
 SublimeText Syntax Definitions for Språk the language used in the game Else Heart.Break()
 
+# File Naming Convention
+I have gone with the naming convention of *.sprak if you feel that I should use another naming convention please contact me and I would be pleased to discuse it with you.
+
 # Me
 I have no affiliation with the game nor its author if anything is incompleate or incorrect that is on me as it is my work seen here. In that very posible case I am very sorry this is only a hobby afterall.
 
