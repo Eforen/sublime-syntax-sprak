@@ -46,7 +46,7 @@
 			<key>comment</key>
 			<string>Function</string>
 			<key>match</key>
-			<string>\b(OnHack|OnIntruder|Count|Range|GetIndexes|Remove|RemoveAll|HasIndex|Append|Type|Round|Int|Mod|Info|Random|GetUser|Name|Time|Width|Height|GetHour|GetMinute|Sleep|Quit|CharToInt|IntToChar|ClearText|Print|Say|PlaySound|Pitch|Sin|Cos|PrintS|Input|Line|Text|Rect|DisplayGraphics|Color|Repeat|HSVtoRGB|RGBToHSV|Lines|GetConnections|Slurp|Connect|DisconnectAll|StringContains|MovePerson|ZapPerson|RestoreCode|Broadcast|IsKeyPressed|HasFloppy|LoadData|ClearData|SaveData|BootFromFloppy|SetMhz|EnableAPI|SetMaxTime|Speed|Charisma|Smelliness|Sleepiness|Drunkenness|Drink|Corruption|IsUser|GetRoom|RemoteFunctionCall|Trippy|TurnLeft|TurnRight|FastForward|Move|QuickBoost)\b</string>
+			<string>\b(OnHack|OnIntruder|Count|Range|GetIndexes|Remove|RemoveAll|HasIndex|Append|Type|Round|Int|Mod|Info|Random|GetUser|Name|Time|Width|Height|GetHour|GetMinute|Sleep|Quit|CharToInt|IntToChar|ClearText|Print|Say|PlaySound|Pitch|Sin|Cos|PrintS|Input|Line|Text|Rect|DisplayGraphics|Color|Repeat|HSVtoRGB|RGBToHSV|Lines|GetConnections|Slurp|Connect|DisconnectAll|StringContains|MovePerson|ZapPerson|RestoreCode|Broadcast|IsKeyPressed|HasFloppy|LoadData|ClearData|SaveData|BootFromFloppy|SetMhz|EnableAPI|SetMaxTime|Speed|Charisma|Smelliness|Sleepiness|Drunkenness|Drink|Corruption|IsUser|GetRoom|RemoteFunctionCall|Trippy|TurnLeft|TurnRight|FastForward|Move|QuickBoost|Unlock|Lock|Toggle)\b</string>
 			<key>name</key>
 			<string>support.function.sprak</string>
 		</dict>

@@ -91,6 +91,11 @@
                 { "trigger": "Move\tMove forward one step", "contents": "Move()" },
                 { "trigger": "QuickBoost\tGet a quick energy boost", "contents": "QuickBoost()" },
 
+                /* Keys and some computers not sure which yet */
+                { "trigger": "Unlock\tUnlock, returns true on success", "contents": "Unlock(${0:code})" },
+                { "trigger": "Lock\tLock, returns true on success", "contents": "Lock(${0:code})" },
+                { "trigger": "Toggle\tLock or unlock depending on if the door is locked", "contents": "Toggle(${0:code})" },
+
                 /* Templates
                 { "trigger": "\t", "contents": "(${0:x})" },
                 { "trigger": "\t", "contents": "(${0:x})" },
