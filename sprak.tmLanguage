@@ -132,53 +132,20 @@
 			</array>
 		</dict>
 		<dict>
-			<key>begin</key>
-			<string>(")</string>
-			<key>beginCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.sprak</string>
-				</dict>
-			</dict>
 			<key>comment</key>
 			<string>String, double-quoted</string>
-			<key>end</key>
-			<string>(")</string>
-			<key>endCaptures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>punctuation.definition.string.begin.sprak</string>
-				</dict>
-			</dict>
+			<key>match</key>
+			<string>\"[^"]*\"</string>
 			<key>name</key>
 			<string>string.quoted.double.sprak</string>
-			<key>patterns</key>
-			<array>
-				<dict>
-					<key>comment</key>
-					<string>Escaped double-quote inside double-quoted string</string>
-					<key>match</key>
-					<string>(\\")</string>
-					<key>name</key>
-					<string>constant.character.escape.sprak</string>
-				</dict>
-				<dict>
-					<key>comment</key>
-					<string>Single quote inside double-quoted string</string>
-					<key>match</key>
-					<string>(')</string>
-					<key>name</key>
-					<string>other.sprak</string>
-				</dict>
-				<dict>
-					<key>include</key>
-					<string>$self</string>
-				</dict>
-			</array>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>String, single-quoted</string>
+			<key>match</key>
+			<string>\'[^']*\'</string>
+			<key>name</key>
+			<string>string.quoted.single.sprak</string>
 		</dict>
 	</array>
 	<key>scopeName</key>

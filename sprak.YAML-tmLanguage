@@ -60,19 +60,10 @@ patterns:
 
 - comment: String, double-quoted
   name: string.quoted.double.sprak
-  begin: (")
-  beginCaptures:
-    '1': { name: punctuation.definition.string.begin.sprak }
-  end: (")
-  endCaptures:
-    '1': { name: punctuation.definition.string.begin.sprak }
-  patterns:
-  - comment: Escaped double-quote inside double-quoted string
-    name: constant.character.escape.sprak
-    match: (\\")
-  - comment: Single quote inside double-quoted string
-    name: other.sprak
-    match: (')
-  - include: $self
+  match: \"[^"]*\"
+
+- comment: String, single-quoted
+  name: string.quoted.single.sprak
+  match: \'[^']*\'
 
 ...
