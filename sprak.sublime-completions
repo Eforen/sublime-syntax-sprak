@@ -65,7 +65,13 @@
                 { "trigger": "ClearData\tClear all data on the floppy", "contents": "ClearData()" },
                 { "trigger": "SaveData\tSave data to the floppy by appending a line at the end", "contents": "SaveData(${0:data})" },
                 { "trigger": "BootFromFloppy\tRestart the computer but run the code on the floppy instead", "contents": "BootFromFloppy()" },
-
+                { "trigger": "SaveMemory\tSave data to the given memory key", "contents": "SaveMemory(${1:key}, ${0:data})" },
+                { "trigger": "LoadMemory\tLoad a specific data previously saved with SaveMemory", "contents": "LoadMemory(${0:key})" },
+                { "trigger": "EraseMemory\tErase a specific data previously saved with SaveMemory", "contents": "EraseMemory(${0:key})" },
+                { "trigger": "HasMemory\tChecks if a specific data was set", "contents": "HasMemory(${0:key})" },
+                { "trigger": "GetMemories\tGet all keys saved with SaveMemory", "contents": "GetMemories()" },
+                { "trigger": "ClearMemories\tRemoves all keys saved with SaveMemory", "contents": "ClearMemories()" },
+                
                 /* Screwdrivers */
                 { "trigger": "SetMhz\tSet the speed of the computer you use the screwdriver on. (Max 500)", "contents": "SetMhz(${0:Mhz})" },
                 { "trigger": "EnableAPI\tEnable an API", "contents": "EnableAPI(${0:name})" },
